@@ -1,0 +1,3 @@
+Date,Year,Month,Quantity,Discount,Profit,Category,Region,Segment,Predicted Sales
+2026-07-14 17:04:20.112841,2011,1,5,0.1,100.0,Office Supplies,Africa,Consumer,446.14
+2026-07-14 17:04:38.656735,2011,1,5,0.1,100.0,Office Supplies,Africa,Consumer,446.14
