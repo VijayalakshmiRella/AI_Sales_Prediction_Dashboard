@@ -34,14 +34,32 @@ The AI Sales Prediction Dashboard is a Machine Learning application that predict
 
 ## Project Structure
 
-AI_Sales_Prediction_Dashboard/
-├── data/
-├── processed_data/
-├── models/
-├── dashboard/
-├── notebooks/
+AI_Sales_Prediction_Dashboard
+│
+├── data
+│   └── sales.csv
+│
+├── processed_data
+│   ├── cleaned_data.csv
+│   └── model_data.csv
+│
+├── notebooks
+│   ├── 01_Data_Preprocessing.ipynb
+│   └── 02_Model_Training.ipynb
+│
+├── dashboard
+│   └── app.py
+│
+├── models
+│   ├── sales_prediction_model.pkl
+│   └── scaler.pkl
+│
+├── prediction_history.csv
+│
 ├── requirements.txt
+│
 ├── README.md
+│
 └── .gitignore
 
 ## Installation
